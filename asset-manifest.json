@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KingBurger/static/css/main.6b038166.css",
+    "main.js": "/KingBurger/static/js/main.6f69c3d9.js",
+    "static/js/787.4d35a8bf.chunk.js": "/KingBurger/static/js/787.4d35a8bf.chunk.js",
+    "index.html": "/KingBurger/index.html",
+    "main.6b038166.css.map": "/KingBurger/static/css/main.6b038166.css.map",
+    "main.6f69c3d9.js.map": "/KingBurger/static/js/main.6f69c3d9.js.map",
+    "787.4d35a8bf.chunk.js.map": "/KingBurger/static/js/787.4d35a8bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b038166.css",
+    "static/js/main.6f69c3d9.js"
+  ]
+}
