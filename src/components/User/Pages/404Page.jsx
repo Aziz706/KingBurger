@@ -5,7 +5,7 @@ function NonePage() {
   return (
     <div>
         <h1>404Page</h1>
-        <NavLink to={"/"}>
+        <NavLink className={"btn btn-danger w-50"} to={"/"}>
             Go to homePage
         </NavLink>
     </div>
