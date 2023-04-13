@@ -1,0 +1,291 @@
+.wrapperItem1{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wrapperItem1 .links {
+    width: 25%;
+    & a.nonActive{
+        width: 90%;
+        font: 400 14px/1.2 'Muli', sans-serif;
+        color: #000000;
+        transition: .3s;
+        background: #f4f4f4;
+        padding: 16px 10px;
+        margin-bottom: 10px;
+        text-transform: none;
+        text-decoration: none;
+  display: block;
+        &:hover {
+            background-color: #c00a27;
+    color: #fff;
+        }
+    }
+}
+.active {
+    background-color: #c00a27;
+    color: #fff;
+    width: 90%;
+        font: 400 14px/1.2 'Muli', sans-serif;
+        transition: .3s;
+        padding: 16px 10px;
+        margin-bottom: 10px;
+        text-transform: none;
+        text-decoration: none;
+  display: block;
+  }
+
+.wrapperItem1 .products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+   justify-content: space-between;
+   margin-left: 100px;
+}
+
+.burgers{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.sliderCardTitle, .sliderCardDescription{
+    margin: 5px 0px 5px 10px;
+}
+
+
+.sliderCardTitle{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.sliderCardTitle2{
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.sliderCardDescription{
+    position: relative;
+    // opacity: 0.5;
+    font-size: 14px;  
+    color: #c00a27;
+    font-weight: 700;
+    &::before {
+        content: "$";
+    }
+    & a {
+        position: absolute;
+        top: 40px;
+        padding: 10px 10px;
+        font-size: 12px;
+        text-align: center;
+        min-width: 135px;
+        border: 2px solid transparent;
+        background-color: #c00a27;
+        color: aliceblue;
+        font-weight: 600;
+        text-transform: uppercase;
+        &:hover {
+        border: 3px solid #c00a27;
+        background-color: #ffffff;
+        color: #c00a27;
+        }
+    }
+}
+.sliderCardDescription2{
+  position: relative;
+  // opacity: 0.5;
+  font-size: 24px;  
+  color: #c00a27;
+  font-weight: 700;
+  margin-top: 20px;
+  &::before {
+      content: "$";
+  }
+  & a {
+      position: absolute;
+      top: 40px;
+      padding: 10px 10px;
+      font-size: 12px;
+      text-align: center;
+      min-width: 135px;
+      border: 2px solid transparent;
+      background-color: #c00a27;
+      color: aliceblue;
+      font-weight: 600;
+      text-transform: uppercase;
+      &:hover {
+      border: 3px solid #c00a27;
+      background-color: #ffffff;
+      color: #c00a27;
+      }
+  }
+}
+
+.sliderCardImage{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(240 240 240 / 80%);
+    // border-top-left-radius: 10px;
+    // border-top-right-radius: 10px;
+}
+.sliderCardImage2{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(240 240 240 / 80%);
+  // border-top-left-radius: 10px;
+  // border-top-right-radius: 10px;
+}
+
+.sliderCard1{
+    width: 250px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    // box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
+.sliderCard2{
+  width: 100%;
+  height: 350px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  margin-left: -25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.products {
+  & .div1{
+    width: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+
+a.active2 {
+    background-color: hsl(0, 0%, 100%) !important;
+    border: 1px solid #c00a27;
+    color: #000000;
+  }
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  text-align: center;
+  width: 65%;
+  margin-right: 50px;
+}
+.pagination > li > a{
+  border: 1px solid #c00a27;
+background: #ffffff;
+  outline: none;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #eee;
+}
+.pagination > .active2 > a, .pagination > .active2 > span, .pagination > .active2 > a:hover, .pagination > .active2 > span:hover, .pagination > .active2 > a:focus, .pagination > .active2 > span:focus{
+  background-color: #c00a27;
+  border-color: #c00a27;
+  color: #eee;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #000000
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+//   border-radius: 50%;    
+//   padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 460px) {
+  .burgers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: -40px;
+  }
+  .wrapperItem1 .links {
+    width: 100%;
+    & a.nonActive{
+        width: 90%;
+        font: 400 14px/1.2 'Muli', sans-serif;
+        color: #000000;
+        transition: .3s;
+        background: #f4f4f4;
+        padding: 16px 10px;
+        margin-bottom: 10px;
+        text-transform: none;
+        text-decoration: none;
+  display: block;
+        &:hover {
+            background-color: #c00a27;
+    color: #fff;
+        }
+    }
+}
+ .div1{
+  margin-top: 20px;
+  width: 100vw;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: -150px;
+  }
+  .sliderCard1 {
+    margin-left: -50px;
+  }
+  .sliderCard2 {
+    margin-left: -100px;
+    width: 100%;
+    margin-bottom: -120px;
+    display: flex;
+    font-size: 10px;
+  }
+  .sliderCardImage2{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(240 240 240 / 80%);
+  }
+  .sliderCardDescription2{
+    & a {
+      width: 10%;
+      font-size: 10px;
+        }
+  }
+  .sliderCardTitle2{
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+  .pagination {
+    margin: 10px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    text-align: center;
+    margin-left: -40px;
+    width: 0;
+  }
+}

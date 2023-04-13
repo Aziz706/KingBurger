@@ -1,0 +1,80 @@
+
+
+.wrapper {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.wrapperItem{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://template234845.motopreview.com/mt-demo/234800/234845/mt-content/uploads/2022/02/mt-2281-home-parallax.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    & h2{
+        font-weight: 900;
+        font-style: normal;
+        // font-family: 'Bitter', serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+        font-size: 32px;
+        line-height: 1.2;
+        letter-spacing: 1px;  
+    }
+    
+
+    
+}       .borders{
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+    flex-wrap: wrap;
+    & div {
+        // padding-top: 10px;
+        // padding-left: 10px;
+        // padding-right: 10px;
+        padding-bottom: 10px;
+        width: 22%;
+        height: 80px;
+    }
+    & span {
+        color: aliceblue;
+        font-size: 35px;
+        font-weight: 600;
+    }
+} 
+
+.flex {
+    width: 20%;
+    display: flex;
+    text-align: center;
+    & h2 {
+        color: #c00a27;
+        font-weight: 700;
+        font-size: 60px;
+        text-transform: uppercase;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    & p {
+        font-weight: 700;
+        font-size: 21px;
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    .flex {
+        margin-left: 70px;
+    }
+}
+

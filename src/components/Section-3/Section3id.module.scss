@@ -1,0 +1,109 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+  -webkit-appearance: none  ;
+   opacity: 1;
+}
+
+
+.container2 {
+    display:inline-flex;
+    justify-content: space-between;
+    // margin-left: -210px;
+    gap: 200px;
+
+    & p {
+        font-size: 30px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Muli', sans-serif;
+    color: #c59461;
+        &::before {
+            content: "$";
+        }
+    }
+}
+
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+  .accord {
+    display: flex;
+    // justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+      & .accord1 {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+       & a{
+        width: 300px;
+        border-style: solid;
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 0px;
+        border-bottom-width: 1px;
+        border-radius: 0px;
+        background-color: #f4f4f4;
+        border-color: #dddddd;
+        padding-top: 9px;
+        padding-right: 15px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        transition: color .3s,background-color .3s,border-color .3s;
+        font-weight: 600;
+      }
+       
+    }
+    & .accord2 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-style: solid;
+      border-left-width: 0px;
+      border-top-width: 1px;
+      border-right-width: 1px;
+      border-bottom-width: 1px;
+      border-radius: 0px;
+      background-color: #f4f4f4;
+      border-color: #dddddd;
+      background-color: #f4f4f4;
+      padding: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .image img {
+      max-width: 100%;
+    }
+  }
