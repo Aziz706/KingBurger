@@ -26,8 +26,12 @@ import { ForgotPassword } from "./components/User/Pages/ForgotPassword";
 import ErrorPage from "./components/User/Pages/ErrorPage";
 
 function App() {
+  const navigate = React.useNavigate()
   const [token, setToken] = React.useState("")
 
+  React.useEffect(() => {
+    navigate("/")
+  }, [])
   React.useEffect(() => {
     let tok = localStorage.getItem("token")
     if(tok) {
